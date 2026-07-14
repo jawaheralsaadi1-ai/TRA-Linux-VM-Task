@@ -2,7 +2,7 @@
 
 
 
-\# \\ Linux VM Server Setup \& Java Application Deployment
+#Linux VM Server Setup & Java Application Deployment
 
 
 
@@ -16,11 +16,11 @@ This repository documents my training assignment where I built, configured, and 
 
 \##  Server Specifications
 
-\* \*\*Operating System:\*\* Ubuntu Server 22.04 LTS
+-Operating System: Ubuntu Server 22.04 LTS
 
-\* \*\*Virtualization Platform:\*\* VirtualBox
+-Virtualization Platform: VirtualBox
 
-\* \*\*Resources:\*\* 2 CPUs, 2048 MB RAM, 25 GB Storage
+-Resources:2 CPUs, 2048 MB RAM, 25 GB Storage
 
 
 
@@ -34,7 +34,7 @@ This repository documents my training assignment where I built, configured, and 
 
 \###  Stage 1 \& 2: Remote Connection
 
-\* Connected securely to the VM via SSH:
+ Connected securely to the VM via SSH:
 
 &#x20;   ```bash
 
@@ -44,13 +44,13 @@ This repository documents my training assignment where I built, configured, and 
 
 
 
-\### 📍 Stage 3: Terminal Diagnostics
+\###  Stage 3: Terminal Diagnostics
 
 During this stage, I investigated system usage purely from the command line:
 
-1\. \*\*Free Memory (RAM):\*\* Checked using `free -h`
+1\. Free Memory (RAM):\*\* Checked using `free -h`
 
-2\. \*\*Disk Space on `/`:\*\* Checked using `df -h /`
+2\. Disk Space on `/`:\*\* Checked using `df -h /`
 
 3\. \*\*Kernel Version:\*\* Checked using `uname -r`
 
@@ -58,7 +58,7 @@ During this stage, I investigated system usage purely from the command line:
 
 
 
-\### 📍 Stage 4 \& 5: Java \& App Deployment
+\###  Stage 4 \& 5: Java \& App Deployment
 
 \* \*\*Java Runtime installed:\*\* OpenJDK 17
 
@@ -72,7 +72,7 @@ During this stage, I investigated system usage purely from the command line:
 
 
 
-\### 📍 Stage 6: Detached Running (Nohup)
+\###  Stage 6: Detached Running (Nohup)
 
 \* To ensure the application survives terminal session termination, it was run in detached mode:
 
@@ -90,7 +90,7 @@ During this stage, I investigated system usage purely from the command line:
 
 
 
-\## 🧠 Key Takeaways
+\##  Key Takeaways
 
 \* Learned how to manage headless Linux servers entirely via SSH.
 
