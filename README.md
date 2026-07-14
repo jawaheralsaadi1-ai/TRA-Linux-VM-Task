@@ -1,15 +1,5 @@
 # TRA Linux VM Task
 
-
-
-#Linux VM Server Setup & Java Application Deployment
-
-
-
-This repository documents my training assignment where I built, configured, and deployed a remote Java application on an Ubuntu Server from scratch.
-
-
-
 ---
 
 ##  Server Specifications
